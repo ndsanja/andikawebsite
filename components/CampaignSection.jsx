@@ -2,8 +2,8 @@ import * as Icon from "../components/Icon";
 
 export default function CampaignSection() {
   return (
-    <div className="w-full flex space-x-16">
-      <div className="w-1/2 h-full relative">
+    <div className="w-full flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0 pb-16 lg:pb-0">
+      <div className="lg:w-1/2 h-full relative">
         <img
           className="h-full w-full object-center object-cover"
           src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fGdyb3VwfGVufDB8fDB8&auto=format&fit=crop&w=500&q=60"
@@ -14,16 +14,16 @@ export default function CampaignSection() {
           <Icon.Play className="cursor-pointer transform hover:scale-125 duration-300 transition-all h-24 w-24 text-gray-100 " />
         </div>
       </div>
-      <div className="w-1/2 flex flex-col  justify-evenly">
+      <div className="lg:w-1/2 flex flex-col  justify-evenly px-14 lg:px-0 space-y-8">
         <div className="flex flex-col space-y-2">
           <div className="text-lg font-semibold text-black">
             Upcoming Campaign
           </div>
           <div className="space-x-4">
-            <span className="uppercase font-bold text-3xl text-green-500">
+            <span className="uppercase font-bold text-2xl lg:text-3xl text-green-500">
               Make
             </span>
-            <span className="uppercase font-bold text-3xl text-gray-600">
+            <span className="uppercase font-bold text-2xl lg:text-3xl text-gray-600">
               Difference
             </span>
           </div>

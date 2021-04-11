@@ -2,13 +2,12 @@ import React from "react";
 
 export default function VolunterSection() {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-32 space-y-8 bg-gray-200">
-      <div className="space-x-4">
-        <span className="capitalize font-bold text-5xl text-blue-900">
-          Become a Volunteer!
-        </span>
+    <div className="w-full flex flex-col items-center justify-center py-20 lg:py-32 space-y-8 bg-gray-200 px-8">
+      <div className="capitalize font-bold text-3xl lg:text-5xl text-blue-900 text-center">
+        Become a Volunteer!
       </div>
-      <div className="text-center text-gray-500 w-6/12">
+
+      <div className="text-center text-gray-500 lg:w-6/12">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat
         dolorum in eum soluta, distinctio doloremque facilis culpa tenetur
         officiis.

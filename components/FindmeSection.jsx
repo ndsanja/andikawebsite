@@ -1,15 +1,35 @@
-import React from "react";
+import {
+  FaWhatsapp,
+  FaTwitter,
+  FaInstagram,
+  FaFacebook,
+  FaYoutube,
+} from "react-icons/fa";
 
 export default function FindmeSection() {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-24 space-y-8 bg-red-600">
+    <div className="w-full flex flex-col items-center justify-center py-20 lg:py-24 space-y-8 bg-red-600">
       <div className="space-x-4">
-        <span className="capitalize text-4xl text-white">Find & Follow Me</span>
+        <span className="capitalize text-2xl lg:text-4xl text-white">
+          Find & Follow Us
+        </span>
       </div>
-      <div className="text-center text-sm text-white w-6/12">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat
-        dolorum in eum soluta, distinctio doloremque facilis culpa tenetur
-        officiis.
+      <div className="flex items-center justify-center space-x-4 lg:space-x-12 text-white w-6/12">
+        <div>
+          <FaFacebook className="cursor-pointer h-8 w-8" />
+        </div>
+        <div>
+          <FaTwitter className="cursor-pointer h-8 w-8" />
+        </div>
+        <div>
+          <FaInstagram className="cursor-pointer h-8 w-8" />
+        </div>
+        <div>
+          <FaWhatsapp className="cursor-pointer h-8 w-8" />
+        </div>
+        <div>
+          <FaYoutube className="cursor-pointer h-8 w-8" />
+        </div>
       </div>
       <div className="flex items-center justify-center space-x-4"></div>
       <input

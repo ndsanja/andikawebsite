@@ -10,7 +10,7 @@ import VolunterSection from "./VolunterSection";
 
 export default function Home() {
   return (
-    <div className="bg-50 font-montserrat relative">
+    <>
       <Navbar />
       <Header />
       <Section />
@@ -20,6 +20,6 @@ export default function Home() {
       <VolunterSection />
       <FindmeSection />
       <Footer />
-    </div>
+    </>
   );
 }
